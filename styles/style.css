@@ -87,15 +87,15 @@ fieldset {
   outline: none;
 }
 
-.search-form__textfield:active {
-  border:1px white solid;
-}
-
-.search-form__textfield:focus-visible{
-  outline: 1px solid white;
+.search-form__textfield:focus-visible {
+  outline:1px rgb(255, 255, 255) solid;
   outline-offset: 1px;
 }
 
+.search-form__textfield:active {
+  border: none;
+  outline:1px rgb(255, 255, 255) solid;
+}
 
 .search-form__textfield::placeholder {
   font-size: 14px;
@@ -127,6 +127,23 @@ fieldset {
   align-self: flex-end;
 }
 
+.search-form__submit-button:active {
+  background-color: #545050;
+}
+
+.search-form__submit-button:hover {
+  text-decoration: underline;
+}
+
+.search-form__submit-button:focus {
+  outline: none;
+}
+
+.search-form__submit-button:focus-visible {
+  outline:1px rgb(255, 255, 255) solid;
+  outline-offset: 1px;
+}
+
 .search-form__label-text:not(:last-child) {
   margin-right: 50px;
 }
@@ -134,18 +151,31 @@ fieldset {
 
 input + .search-form__pseudo-checkbox {
   display: inline-block;
-  width: 17px;
-  height: 17px;
-  margin-left: 5px;
+  width: 18px;
+  height: 18px;
+  margin-bottom: 2px;
+  margin-left: 2px;
   background-color: transparent;
-  border: #fff 1.3px solid;
+  outline: #fff 1.3px solid;
   vertical-align: middle;
   cursor: pointer;
 }
 
 input:checked +.search-form__pseudo-checkbox {
-  inset: 1px black;
+  width: 14.8px;
+  height: 14.8px;
+  outline: #fff 1.5px solid;
+  outline-offset: 1.4px;
   background-color: #fff;
+}
+
+.search-form__label-text:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.8px;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px white solid;
 }
 
 .result__video-container {
@@ -213,3 +243,23 @@ input:checked +.search-form__pseudo-checkbox {
   flex-direction: column;
 }
 
+.content__card-link {
+  margin: 2px;
+  display: block;
+}
+
+.content__card-link_current:active {
+  background-color: #545050;
+}
+
+.content__card-link_current:hover {
+  text-decoration: underline;
+}
+
+.content__card-link_current:focus {
+  outline: none;
+}
+
+.content__card-link_current:focus-visible {
+  border: 1px solid white;
+}
