@@ -65,7 +65,7 @@ button {
   align-self: center;
   min-width: 711px;
   gap: 3%;
-  padding: 133px 31px 0 31px;
+  padding: 11% 2% 11% 2%;
 }
 
 fieldset {
@@ -189,6 +189,11 @@ input:checked +.search-form__pseudo-checkbox {
   width: 711px;
 }
 
+.preloader-template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .title {
   text-transform: uppercase;
   font-size: 78px;
