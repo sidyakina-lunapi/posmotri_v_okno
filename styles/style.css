@@ -65,7 +65,7 @@ button {
   align-self: center;
   min-width: 711px;
   gap: 3%;
-  padding: 133px 31px;
+  padding: 133px 31px 0 31px;
 }
 
 fieldset {
