@@ -9,8 +9,8 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
   block-size: 100%;
+  inline-size: 1200px;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -156,7 +156,7 @@ input + .search-form__pseudo-checkbox {
   margin-bottom: 2px;
   margin-left: 2px;
   background-color: transparent;
-  outline: #fff 1.3px solid;
+  outline: #fff 1.32px solid;
   vertical-align: middle;
   cursor: pointer;
 }
