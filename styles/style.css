@@ -62,10 +62,10 @@ button {
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-self: center;
   min-width: 711px;
   gap: 3%;
-  padding: 11% 2%;
+  padding: 133px 31px;
 }
 
 fieldset {
