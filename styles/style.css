@@ -6,9 +6,6 @@
 
 html {
   block-size: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .page {
@@ -63,9 +60,12 @@ button {
   font-size: 20px;
 }
 .content {
+  display: flex;
+  justify-content: center;
+  align-self: center;
   min-width: 711px;
   gap: 3%;
-  padding: 11% 2% 11% 2%;
+  padding: 22% 2% 0 2%;
 }
 
 fieldset {
@@ -188,6 +188,7 @@ input:checked +.search-form__pseudo-checkbox {
   object-fit: cover;
   width: 711px;
 }
+
 
 .title {
   text-transform: uppercase;
