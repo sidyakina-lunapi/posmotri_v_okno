@@ -64,6 +64,7 @@ button {
   justify-content: center;
   align-self: center;
   min-width: 711px;
+  margin: none;
   gap: 3%;
   padding: 22% 2% 0 2%;
 }
@@ -187,6 +188,9 @@ input:checked +.search-form__pseudo-checkbox {
 .result__video {
   object-fit: cover;
   width: 711px;
+  max-height: 386px;
+  padding-top: 78px;
+  padding-bottom: 35px;
 }
 
 
