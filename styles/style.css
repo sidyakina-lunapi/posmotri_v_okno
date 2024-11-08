@@ -179,18 +179,21 @@ input:checked +.search-form__pseudo-checkbox {
   outline: 1px white solid;
 }
 
+.result {
+  margin-top: 78px;
+  padding-bottom: 35px;
+}
+
 .result__video-container {
   max-width: 711px;
   position: relative;
-  padding-bottom: 10px;
+
 }
 
 .result__video {
   object-fit: cover;
   width: 711px;
-  max-height: 386px;
-  margin-top: 78px;
-  padding-bottom: 35px;
+  height: 386px;
 }
 
 
