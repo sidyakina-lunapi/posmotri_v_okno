@@ -193,7 +193,7 @@ input:checked +.search-form__pseudo-checkbox {
 
 .result__video {
   object-fit: cover;
-  width: 119vh;
+  max-width: 119vh;
   height: 65vh;
 }
 
