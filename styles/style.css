@@ -184,7 +184,7 @@ input:checked +.search-form__pseudo-checkbox {
 }
 
 .result__video-container {
-  max-width: 119vh;
+  max-width: 770px;
   position: relative;
   margin-top: 78px;
   padding-bottom: 14px;
@@ -193,7 +193,7 @@ input:checked +.search-form__pseudo-checkbox {
 
 .result__video {
   object-fit: cover;
-  max-width: 119vh;
+  width: 720px;
   height: 65vh;
 }
 
