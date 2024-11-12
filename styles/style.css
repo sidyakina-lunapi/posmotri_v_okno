@@ -175,7 +175,7 @@ input:checked +.search-form__pseudo-checkbox {
   background-color: #fff;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 0.8px;
 }
@@ -250,6 +250,10 @@ input:checked +.search-form__pseudo-checkbox {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__card-link {
